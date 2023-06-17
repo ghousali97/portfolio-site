@@ -1,7 +1,29 @@
 .topbar {
+
+    background-color: darkblue;
+
     width: 100%;
-    background-color: red;
+    height: 70px;
     position: fixed;
     top: 0px;
-    left: 0px;
+
+    z-index: 2;
+
+
+}
+
+.topbar .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.topbar .wrapper .logo {
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
 }
