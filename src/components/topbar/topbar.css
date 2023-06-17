@@ -29,7 +29,7 @@
     font-weight: 700;
     text-decoration: none;
     color: inherit;
-    margin-right: 1.5%;
+    margin-left: 1%;
 }
 
 .topbar .wrapper .item-container {
@@ -78,6 +78,7 @@
 .topbar.active {
     color: var(--secondary-theme-color);
     background-color: var(--main-theme-color);
+    border-bottom: 0.5px solid var(--secondary-theme-color);
 
 }
 
@@ -94,4 +95,10 @@
 .topbar.active .wrapper .right span:last-child {
     background-color: var(--secondary-theme-color);
     transform: rotate(-45deg);
+}
+
+@media (max-width: 800px) {
+    .topbar .wrapper .item-container {
+        display: none;
+    }
 }

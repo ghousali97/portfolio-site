@@ -1,0 +1,26 @@
+.portfolioList {
+    font-size: 18px;
+    margin-right: 50px;
+    font-weight: 400;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.portfolioList.active {
+    background-color: var(--main-theme-color);
+    color: var(--secondary-theme-color);
+
+}
+
+
+@media (max-width: 800px) {
+
+    .portfolioList {
+        font-size: 15px;
+        padding: 15px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+}

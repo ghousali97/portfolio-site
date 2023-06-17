@@ -1,3 +1,135 @@
 .intro {
-    background-color: gray;
+    background-color: white;
+    display: flex;
+
+}
+
+
+
+.intro .left {
+    flex: 0.5;
+    overflow: hidden;
+}
+
+.intro .left .img-container {
+    background-color: crimson;
+    border-radius: 50%;
+    width: 110vh;
+    height: 110vh;
+
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+}
+
+.intro .left .img-container img {
+    height: 90%;
+    margin-bottom: -10%;
+    margin-left: -05%;
+
+}
+
+.intro .right {
+    flex: 0.5;
+    display: relative;
+
+}
+
+.intro .right .wrapper {
+
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro .right .wrapper h1 {
+    font-size: 55px;
+    margin: 10px 0px;
+}
+
+.intro .right .wrapper h2 {
+    font-size: 35px;
+    margin: 0px;
+}
+
+.intro .right .wrapper h3 {
+    font-size: 25px;
+    margin: 0px;
+}
+
+.intro .right a {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+.intro .right img {
+    width: 30px;
+    animation: arrowBlink 3s infinite;
+}
+
+.intro .right .wrapper span {
+    color: crimson;
+    font-size: 30px;
+
+}
+
+@keyframes arrowBlink {
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro>* {
+        width: 100%;
+    }
+
+    .intro .left .img-container {
+        align-items: flex-start;
+
+    }
+
+    .intro .left .img-container img {
+        height: 60%;
+        margin-left: 20%;
+        margin-top: 8%;
+    }
+
+    .intro .right .wrapper {
+        padding-left: 0px;
+        justify-content: center;
+        align-items: left;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .intro .right .wrapper h1 {
+        font-size: 40px;
+
+    }
+
+    .intro .right .wrapper h2 {
+        font-size: 25px;
+    }
+
+    .intro .right .wrapper h3 {
+        font-size: 20px;
+    }
+
+    .intro .right .wrapper span {
+        font-size: 21px;
+    }
 }
