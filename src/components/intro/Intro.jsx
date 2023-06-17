@@ -1,8 +1,7 @@
 
 
 import './intro.css'
-import { init } from "ityped";
-import { useEffect, useRef } from "react";
+
 import { TypeAnimation } from 'react-type-animation';
 function Intro() {
 
@@ -42,7 +41,7 @@ function Intro() {
                     </h3>
                 </div>
                 <a href="#portfolio">
-                    <img src="/assets/images/down.png" />
+                    <img src="/assets/images/down.png" alt="" />
                 </a>
             </div>
         </div>

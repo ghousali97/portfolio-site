@@ -87,6 +87,7 @@
 
     .portfolio .container .item {
         width: 90%;
+        flex-wrap: wrap;
 
     }
 }

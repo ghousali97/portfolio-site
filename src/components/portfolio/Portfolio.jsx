@@ -2,7 +2,7 @@
 import './portfolio.css'
 import PortfolioList from '../portfolioList/PortfolioList';
 import { useEffect, useState } from 'react';
-import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio } from '../../data';
+import { featuredPortfolio, webPortfolio, mobilePortfolio } from '../../data';
 function Portfolio() {
     const [selected, setSelected] = useState('featured');
     const [data, setData] = useState([]);
