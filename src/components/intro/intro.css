@@ -33,7 +33,6 @@
 
 .intro .right {
     flex: 0.5;
-    display: relative;
 
 }
 
@@ -94,6 +93,7 @@
 
     .intro>* {
         width: 100%;
+        align-items: center;
     }
 
     .intro .left .img-container {
@@ -107,8 +107,10 @@
         margin-top: 8%;
     }
 
+
+
     .intro .right .wrapper {
-        padding-left: 0px;
+        padding: 0px;
         justify-content: center;
         align-items: left;
         width: 90%;
@@ -131,5 +133,11 @@
 
     .intro .right .wrapper span {
         font-size: 21px;
+    }
+
+    .intro .right img {
+        position: absolute;
+        left: 45%;
+        bottom: 5%;
     }
 }

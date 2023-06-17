@@ -69,6 +69,8 @@
 }
 
 @media (max-width: 800px) {
+
+
     .portfolio h1 {
         font-size: 40px;
     }
@@ -86,8 +88,12 @@
     }
 
     .portfolio .container .item {
-        width: 90%;
-        flex-wrap: wrap;
+        width: 60%;
+
+    }
+
+    .portfolio .container .item h3 {
+        font-size: 25px;
 
     }
 }
