@@ -1,3 +1,8 @@
+html {
+    --main-theme-color: darkblue;
+    --secondary-theme-color: gainsboro;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
