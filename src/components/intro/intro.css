@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -64,12 +65,12 @@
 
 .intro .right a {
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     left: 50%;
 }
 
 .intro .right img {
-    width: 40px;
+    width: 50px;
     animation: arrowBlink 3s infinite;
 }
 

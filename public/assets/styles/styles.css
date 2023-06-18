@@ -1,5 +1,5 @@
 html {
-    --main-theme-color: darkblue;
+    --main-theme-color: rgb(33, 0, 98);
     --secondary-theme-color: gainsboro;
 }
 
@@ -8,4 +8,5 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     overflow-x: hidden;
+
 }

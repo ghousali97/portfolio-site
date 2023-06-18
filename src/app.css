@@ -5,6 +5,7 @@
 .app .sections {
     width: 100%;
     height: calc(100vh - 70px);
+    overflow-x: hidden;
 
 
     position: relative;

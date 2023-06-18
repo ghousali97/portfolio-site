@@ -1,5 +1,5 @@
 .portfolio {
-    background-color: white;
+    background-color: rgb(249, 226, 175);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
 }
 
 .portfolio .container .item {
-    width: 25%;
+    width: 30%;
     border-radius: 20px;
     border: 1px solid var(--main-theme-color);
     margin: 10px 20px;
@@ -53,7 +53,7 @@
 }
 
 .portfolio .container .item:hover {
-    background-color: var(--main-theme-color);
+    background-color: rgb(119, 3, 123);
 
 }
 
@@ -70,9 +70,7 @@
 
 @media (max-width: 800px) {
 
-    .app .sections .portfolio {
-        height: 100%;
-    }
+
 
     .portfolio h1 {
         font-size: 40px;
@@ -91,12 +89,14 @@
     }
 
     .portfolio .container .item {
-        width: 100%;
+        margin: 2% 2%;
+
+        width: 45%;
 
     }
 
     .portfolio .container .item h3 {
-        font-size: 25px;
+        font-size: 12px;
 
     }
 }
