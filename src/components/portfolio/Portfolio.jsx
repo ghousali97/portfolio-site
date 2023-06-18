@@ -11,7 +11,7 @@ function Portfolio() {
         switch (selected) {
 
             case "featured":
-                setData(featuredPortfolio);
+                setData(mobilePortfolio);
                 break;
             case "web":
                 setData(webPortfolio);

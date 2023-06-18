@@ -1,10 +1,10 @@
 .intro {
     background-color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
-
 
 .intro .left {
     flex: 0.5;
@@ -37,7 +37,8 @@
 }
 
 .intro .right .wrapper {
-
+    position: absolute;
+    top: 0%;
     width: 100%;
     height: 100%;
     padding-left: 50px;
@@ -68,7 +69,7 @@
 }
 
 .intro .right img {
-    width: 30px;
+    width: 40px;
     animation: arrowBlink 3s infinite;
 }
 
@@ -88,12 +89,29 @@
 @media (max-width: 800px) {
     .intro {
         flex-direction: column;
-        align-items: center;
+
     }
 
     .intro>* {
         width: 100%;
         align-items: center;
+    }
+
+    .intro .right {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro .right .wrapper {
+
+        width: 100%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0px;
+        align-items: left;
+
+        margin: auto;
     }
 
     .intro .left .img-container {
@@ -110,12 +128,7 @@
 
 
     .intro .right .wrapper {
-        padding: 0px;
-        justify-content: center;
-        align-items: left;
-        width: 90%;
-        margin: auto;
-
+        top: 70%;
     }
 
     .intro .right .wrapper h1 {
@@ -135,9 +148,11 @@
         font-size: 21px;
     }
 
-    .intro .right img {
+    .intro .right a {
         position: absolute;
+        bottom: 10%;
         left: 45%;
-        bottom: 5%;
     }
+
+
 }

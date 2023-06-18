@@ -70,6 +70,9 @@
 
 @media (max-width: 800px) {
 
+    .app .sections .portfolio {
+        height: 100%;
+    }
 
     .portfolio h1 {
         font-size: 40px;
@@ -88,7 +91,7 @@
     }
 
     .portfolio .container .item {
-        width: 60%;
+        width: 100%;
 
     }
 
