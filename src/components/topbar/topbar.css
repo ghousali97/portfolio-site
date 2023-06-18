@@ -95,7 +95,7 @@
     transform: rotate(-45deg);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .topbar .wrapper .item-container {
         display: none;
     }

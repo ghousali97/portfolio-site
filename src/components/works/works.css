@@ -84,17 +84,17 @@
 }
 
 .works .slider .container .item .left h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0px;
 }
 
 .works .slider .container .item .left p {
-    font-size: 13px;
+    font-size: 14px;
     margin: 0px;
 }
 
 .works .slider .container .item .left span {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;

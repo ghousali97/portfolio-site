@@ -16,7 +16,7 @@ export const featuredPortfolio = [
         title: "E-commerce Web Design",
         img:
             "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    }
+    },
 ];
 
 export const webPortfolio = [
@@ -57,6 +57,16 @@ export const mobilePortfolio = [
         img:
             "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
     },
+    {
+        id: 1,
+        title: "Web Social Media App",
+        img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    },
+    {
+        id: 2,
+        title: "Web Rampa UI Design",
+        img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+    }
 ];
 
 export const designPortfolio = [

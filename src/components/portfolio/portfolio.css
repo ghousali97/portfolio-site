@@ -1,15 +1,21 @@
 .portfolio {
-    background-color: rgb(249, 226, 175);
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(249, 226, 175, 1);
+
+    background-image: radial-gradient(ellipse farthest-corner at 10px 10px, rgba(250, 216, 144, 1), rgba(250, 216, 144, 1) 50%, rgba(249, 226, 175, 1) 50%);
+    background-size: 10px 10px;
 }
 
 .portfolio h1 {
+
     font-size: 50px;
 }
 
 .portfolio ul {
+
     padding: 0px;
     list-style: none;
     display: flex;
@@ -19,7 +25,7 @@
 
 
 .portfolio .container {
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +33,7 @@
 }
 
 .portfolio .container .item {
-    width: 30%;
+    width: 25%;
     border-radius: 20px;
     border: 1px solid var(--main-theme-color);
     margin: 10px 20px;
@@ -68,7 +74,7 @@
     font-size: 24px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
 
 
@@ -89,9 +95,8 @@
     }
 
     .portfolio .container .item {
-        margin: 2% 2%;
-
-        width: 45%;
+        margin: 2% 1.5%;
+        width: 42%;
 
     }
 
