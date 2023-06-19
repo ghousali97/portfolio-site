@@ -90,7 +90,6 @@
 @media (max-width: 1200px) {
     .intro {
         flex-direction: column;
-
     }
 
     .intro>* {
@@ -126,7 +125,10 @@
         margin-top: 8%;
     }
 
+    .intro .right img {
+        width: 30px;
 
+    }
 
     .intro .right .wrapper {
         top: 70%;

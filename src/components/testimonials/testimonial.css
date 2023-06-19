@@ -87,7 +87,7 @@ img.right {
     color: rgb(121, 115, 115);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     .testimonials {
         justify-content: space-around;

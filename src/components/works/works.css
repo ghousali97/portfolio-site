@@ -85,16 +85,19 @@
 
 .works .slider .container .item .left h2 {
     font-size: 22px;
-    margin: 0px;
+    margin: 2px 0px;
+    margin-bottom: 5px;
 }
 
 .works .slider .container .item .left p {
-    font-size: 14px;
-    margin: 0px;
+    font-size: 11px;
+    text-align: justify;
+    margin: 4px 2px;
 }
 
 .works .slider .container .item .left span {
-    font-size: 15px;
+    font-size: 13px;
+    text-align: center;
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
@@ -114,4 +117,34 @@
 .works .slider .container .item .right img {
     width: 400px;
     transform: rotate(-10deg);
+}
+
+
+@media (max-width: 900px) {
+    .works .arrow.left {
+        display: hidden;
+    }
+
+    .works .arrow.right {
+        display: hidden;
+
+    }
+
+    .works .slider {
+        height: 100vh;
+
+    }
+
+    .works .slider .container {
+        flex-direction: column;
+    }
+
+    .works .slider .container .item {
+        width: 90%;
+    }
+
+    .works .slider .container .item .right img {
+        width: 120px;
+        transform: rotate(-10deg);
+    }
 }
