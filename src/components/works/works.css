@@ -103,6 +103,21 @@
     cursor: pointer;
 }
 
+.works .slider .container .item .left .imgContainer {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(245, 179, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.works .slider .container .item .left .imgContainer img {
+
+    width: 40px;
+}
 
 .works .slider .container .item .right {
     flex: 8;
@@ -122,29 +137,90 @@
 
 @media (max-width: 900px) {
     .works .arrow.left {
-        display: hidden;
+        display: none;
     }
 
     .works .arrow.right {
-        display: hidden;
+        display: none;
 
     }
 
     .works .slider {
-        height: 100vh;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
 
     }
 
     .works .slider .container {
         flex-direction: column;
+        margin: 12px 0px;
+
     }
 
     .works .slider .container .item {
         width: 90%;
+        height: 100%;
+        padding-top: 5px;
+        padding-bottom: 12px;
+        padding-left: 5px;
+
+    }
+
+    .works .slider .container .item .left {
+        flex: 6;
+        height: 100%;
+
+    }
+
+    .works .slider .container .item .left .imgContainer {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    .works .slider .container .item .left .imgContainer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .works .slider .container .item .left .leftContainer {
+        width: 95%;
+        height: 100%;
+
+    }
+
+    .works .slider .container .item .left h2 {
+        font-size: 13px;
+        margin: 2px 0px;
+
+    }
+
+    .works .slider .container .item .left p {
+        font-size: 9px;
+        text-align: justify;
+        margin: 2px px;
+    }
+
+    .works .slider .container .item .left span {
+        font-size: 11px;
+        text-align: center;
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-top: 2px;
+    }
+
+    .works .slider .container .item .right {
+        flex: 6;
+        overflow: hidden;
+        flex-wrap: nowrap;
     }
 
     .works .slider .container .item .right img {
-        width: 120px;
+        width: 150px;
+        max-height: 200px;
         transform: rotate(-10deg);
     }
 }
