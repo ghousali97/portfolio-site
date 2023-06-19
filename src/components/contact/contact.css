@@ -79,6 +79,15 @@
         justify-content: center;
     }
 
+    .contact .left {
+        flex: 0.4;
+        overflow: hidden;
+    }
+
+    .contact .right {
+        flex: 0.6;
+    }
+
     .contact .right h2 {
         font-size: 25px;
         margin: 5px 0px;
@@ -92,12 +101,12 @@
     }
 
     .contact .right form input {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         width: 70%;
     }
 
     .contact .right form textarea {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         width: 70%;
         height: 40%;
     }

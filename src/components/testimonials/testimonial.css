@@ -94,41 +94,51 @@ img.right {
     }
 
     .testimonials h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .testimonials .container {
-        width: 100%;
-        height: 90%;
+
+        height: 95%;
         flex-direction: column;
-
-
-
+        padding-bottom: 10px;
     }
 
     .testimonials .container .card {
-        width: 80%;
+        width: 85%;
         height: 30%;
-        margin-left: 20px;
-        margin-right: 20px;
+        padding: 8px 20px 8px 20px;
+        margin: 12px 25px;
+
+    }
+
+    .testimonials .container .card.featured {
+        transform: scale(1);
+    }
+
+    .testimonials .container .card .top {
+        padding: 2px;
     }
 
     .testimonials .container .card .top img.user {
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
 
     }
 
+
     .testimonials .container .card .center {
         font-size: 12px;
-        padding: 5px;
+        padding: 15px 5px;
     }
 
     .testimonials .container .card .bottom h3 {
         font-size: 14px;
+        margin: 1px;
     }
 
     .testimonials .container .card .bottom h4 {
         font-size: 13px;
+        margin: 1px;
     }
 }
