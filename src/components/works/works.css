@@ -164,12 +164,14 @@
     .works .slider .container {
         flex-direction: column;
         margin: 12px 0px;
+        max-height: 32%;
+        overflow: hidden;
 
     }
 
     .works .slider .container .item {
         width: 90%;
-        height: 90%;
+        height: 100%;
         padding-top: 5px;
         padding-bottom: 12px;
         padding-left: 5px;
@@ -183,15 +185,15 @@
     }
 
     .works .slider .container .item .left .imgContainer {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 
 
 
     .works .slider .container .item .left .imgContainer img {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .works .slider .container .item .left .leftContainer {
@@ -201,19 +203,19 @@
     }
 
     .works .slider .container .item .left h2 {
-        font-size: 13px;
+        font-size: 10px;
         margin: 2px 0px;
 
     }
 
     .works .slider .container .item .left p {
-        font-size: 9px;
+        font-size: 8px;
         text-align: justify;
         margin: 2px px;
     }
 
     .works .slider .container .item .left span {
-        font-size: 11px;
+        font-size: 10px;
         text-align: center;
         font-weight: 600;
         text-decoration: underline;
@@ -228,7 +230,7 @@
     }
 
     .works .slider .container .item .right img {
-        width: 150px;
+        width: 120px;
         max-height: 200px;
         transform: rotate(-10deg);
     }
