@@ -96,6 +96,28 @@
 }
 
 @media (max-width: 1200px) {
+    .topbar {
+        height: 48px;
+    }
+
+    .topbar .wrapper {
+
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .topbar .wrapper .logo {
+        font-size: 25px;
+    }
+
+    .topbar .wrapper .right .hamburger {
+
+        height: 20px;
+
+    }
+
     .topbar .wrapper .item-container {
         display: none;
     }

@@ -2,6 +2,7 @@
     height: 100dvh;
 }
 
+
 .app .sections {
     width: 100%;
     height: calc(100dvh - 70px);
@@ -25,4 +26,30 @@
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
+}
+
+@media (max-width: 1200px) {
+    .app {
+        height: 100dvh;
+    }
+
+
+    .app .sections {
+
+        height: calc(100dvh - 48px);
+
+
+        position: relative;
+        top: 48px;
+
+
+    }
+
+
+    .app .sections>* {
+
+
+        height: calc(100dvh - 48px);
+
+    }
 }
