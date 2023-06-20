@@ -97,7 +97,7 @@
 
 @media (max-width: 1200px) {
     .topbar {
-        height: 48px;
+        height: 50px;
     }
 
     .topbar .wrapper {
@@ -109,7 +109,7 @@
     }
 
     .topbar .wrapper .logo {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .topbar .wrapper .right .hamburger {
