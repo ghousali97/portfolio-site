@@ -8,14 +8,14 @@ function Intro() {
 
 
     return (
-        <div className="intro" id="intro">
+        <div className="intro pattern-grid-lg" id="intro">
             <div className='left'>
                 <div className='img-container'>
                     <img src="/assets/images/me.png" alt="" />
                 </div>
             </div>
 
-            <div className='right'>
+            <div className='right pattern-dots-sm'>
                 <div className='wrapper'>
                     <h2>Hello, I am</h2>
                     <h1>Ghous Ali Khan</h1>
