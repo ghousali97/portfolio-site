@@ -101,16 +101,15 @@ img.right {
     .testimonials .container {
 
         height: 90%;
-
         flex-direction: column;
         margin-bottom: 1.5%;
     }
 
     .testimonials .container .card {
         width: 85%;
-        height: 30%;
+        height: 29%;
         padding: 1.5% 4% 1.5% 4%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
 
     }
 
@@ -130,17 +129,17 @@ img.right {
 
 
     .testimonials .container .card .center {
-        font-size: 12px;
+        font-size: 11px;
         padding: 2% 1.5%;
     }
 
     .testimonials .container .card .bottom h3 {
-        font-size: 14px;
+        font-size: 13px;
         margin: 1px;
     }
 
     .testimonials .container .card .bottom h4 {
-        font-size: 13px;
+        font-size: 12px;
         margin: 1px;
     }
 }
