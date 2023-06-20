@@ -100,7 +100,7 @@ img.right {
 
     .testimonials .container {
 
-        height: 80%;
+        height: 90%;
         flex-direction: column;
         margin-bottom: 1.5%;
     }
@@ -109,7 +109,7 @@ img.right {
         width: 85%;
         height: 30%;
         padding: 1.5% 4% 1.5% 4%;
-
+        margin-bottom: 1.5%;
 
     }
 
