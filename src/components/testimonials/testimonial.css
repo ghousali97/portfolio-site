@@ -88,10 +88,10 @@ img.right {
 }
 
 @media (max-width: 900px) {
-
     .testimonials {
-        justify-content: space-around;
+        overflow:
     }
+
 
     .testimonials h1 {
         font-size: 25px;
@@ -99,16 +99,16 @@ img.right {
 
     .testimonials .container {
 
-        height: 90%;
+        height: 80%;
         flex-direction: column;
-        padding-bottom: 10px;
+        margin-bottom: 1.5%;
     }
 
     .testimonials .container .card {
         width: 85%;
         height: 30%;
-        padding: 8px 20px 8px 20px;
-        margin: 12px 25px;
+        padding: 1.5% 4% 1.5% 4%;
+        margin: 1.5% 3%;
 
     }
 
@@ -129,7 +129,7 @@ img.right {
 
     .testimonials .container .card .center {
         font-size: 12px;
-        padding: 15px 5px;
+        padding: 2% 1.5%;
     }
 
     .testimonials .container .card .bottom h3 {
