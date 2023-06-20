@@ -89,7 +89,7 @@ img.right {
 
 @media (max-width: 900px) {
     .testimonials {
-        overflow:
+        overflow: hidden
     }
 
 
