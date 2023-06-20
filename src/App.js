@@ -6,7 +6,7 @@ import Portfolio from './components/portfolio/Portfolio.jsx';
 import Testimonials from './components/testimonials/Testimonials.jsx';
 import Intro from './components/intro/Intro.jsx';
 import Menu from './components/menu/Menu';
-
+import Works from './components/works/Works';
 function App() {
 
   const [menuOpen, setMenuOpen] = React.useState(false);
@@ -17,7 +17,7 @@ function App() {
       <div className='sections'>
         <Intro />
         <Portfolio />
-
+        <Works />
         <Testimonials />
         <Contact />
       </div>
